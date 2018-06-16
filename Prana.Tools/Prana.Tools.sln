@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prana.Tools", "Prana.Tools.csproj", "{0876C54D-D293-440D-ABE1-D624F179D3BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prana.Tools.Test", "..\Prana.Tools.Test\Prana.Tools.Test.csproj", "{697E3EAB-446E-4777-9194-FBDE0120BD7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0876C54D-D293-440D-ABE1-D624F179D3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0876C54D-D293-440D-ABE1-D624F179D3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0876C54D-D293-440D-ABE1-D624F179D3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0876C54D-D293-440D-ABE1-D624F179D3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697E3EAB-446E-4777-9194-FBDE0120BD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697E3EAB-446E-4777-9194-FBDE0120BD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697E3EAB-446E-4777-9194-FBDE0120BD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697E3EAB-446E-4777-9194-FBDE0120BD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7A9491B-ED81-47C7-B19F-B5861B46E063}
+	EndGlobalSection
+EndGlobal
