@@ -99,12 +99,27 @@ namespace Prana.Tools
         /// <returns>A random color between the min and max values</returns>
         public Color NextColor(Color minColor, Color maxColor)
         {
-            return Color.FromArgb(Next(minColor.A, maxColor.A + 1),
+            return Color.FromArgb(
+                Next(minColor.A, maxColor.A + 1),
                 Next(minColor.R, maxColor.R + 1),
                 Next(minColor.G, maxColor.G + 1),
                 Next(minColor.B, maxColor.B + 1));
         }
 
+        public double NextDouble(double minimum, double maximum)
+        {
+            return NextDouble() * (maximum - minimum) + minimum;
+        }
+
+        public double NextLatitude()
+        {
+            return NextDouble(-90, 90);
+        }
+
+        public double NextLongitude()
+        {
+            return NextDouble(-180, 180);
+        }
         #endregion
 
 
